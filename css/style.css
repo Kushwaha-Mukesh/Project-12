@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img[alt="logo"] {
+    width: 100px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.nav-items {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    padding: 7px 40px;
+    border: 1px solid #767C84;
+    background-color: transparent;
+    color: #fff;
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 80px 150px 0 150px;
+}
+
+.head-text {
+    align-self: center;
+}
+
+.head div:first-child {
+    height: 450px;
+    width: 400px;
+    overflow: hidden;
+    background-image: url(../images/pexels-fauxels-3183197.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.head-text h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+.head-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.head-text form {
+    position: relative;
+}
+
+.head-text form input[type="email"] {
+    border: none;
+    padding: 18px 35px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+.head-btn {
+    font-size: 16px;
+    padding: 10px 35px;
+    position: absolute;
+    right: 7px;
+    bottom: 8px;
+    background-color: #8BB7A2;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.head-text form i {
+    color: black;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+}
+
+.navbar-main {
+    padding-bottom: 80px;
+    background-color: #636C79;
+    color: #fff;
+}
+
+.business-connect h1 {
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.business-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 150px 60px 150px;
+}
+
+.project h2 {
+    text-align: right;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #5f6061;
+}
+
+.business-image {
+    margin: 20px 150px 150px 150px;
+    height: 500px;
+    background-image: url(../images/pexels-fauxels-3184325.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.business-facilities .business-heading {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+
+.facilities-01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px 100px 150px;
+}
+
+.facilities-image-01 {
+    background-image: url(../images/pexels-fauxels-3184405.jpg);
+}
+
+.facilities-image-02 {
+    background-image: url(../images/pexels-fauxels-3184603.jpg);
+    order: -1;
+}
+
+.facilities-image-03 {
+    background-image: url(../images/pexels-linkedin-sales-navigator-2182969.jpg);
+}
+
+.image {
+    width: 400px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facilities-01 h1 {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.facilities-01 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #5f6061;
+    margin-bottom: 35px;
+}
+
+.btn {
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    padding: 10px 30px;
+    background-color: #8BB7A2;
+    color: #fff;
+    border: none;
+}
+
+.team-description {
+    margin: 170px 150px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-description h1 {
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+
+.team-description p {
+    font-size: 16px;
+    color: #5f6061;
+    font-family: "Poppins", sans-serif;
+}
+
+.team-member {
+    margin: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-image-01 {
+    background-image: url(../images/pexels-mikhail-nilov-8937870.jpg);
+}
+
+.team-image-02 {
+    background-image: url(../images/pexels-precious-judah-9154594.jpg);
+}
+
+.team-image-03 {
+    background-image: url(../images/pexels-christina-morillo-1181424.jpg);
+}
+
+.team-image {
+    height: 400px;
+    width: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-member-01 h3 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin: 15px 0 20px 0;
+}
+
+.team-member-01 p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.team-btn {
+    display: block;
+    margin: 50px auto 80px;
+}
+
+.footer {
+    padding: 50px 150px 70px;
+    background-color: #10181D;
+    color: #fff;
+}
+
+.footer-head {
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2C3439;
+}
+
+.social-media-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #282F34;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.social-media-links a i {
+    color: #fff;
+    margin-top: 12px;
+}
+
+.footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-list h3 {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-list ul li {
+    list-style-type: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #808387;
+    margin-bottom: 15px;
+}
